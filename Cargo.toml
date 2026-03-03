@@ -14,4 +14,4 @@ members = [
 ]
 
 [dependencies]
-karutin_proc_macro = { path = "proc_macro" }
+karutin_proc_macro = { version = "0.1.0", path = "proc_macro" }
