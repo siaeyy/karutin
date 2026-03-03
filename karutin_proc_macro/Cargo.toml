@@ -1,6 +1,7 @@
 [package]
 name = "karutin_proc_macro"
 version = "0.1.0"
+description = "Check out 'karutin' crate!"
 
 edition.workspace = true
 repository.workspace = true
