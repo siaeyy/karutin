@@ -1,0 +1,13 @@
+[package]
+name = "karutin"
+version = "0.1.0"
+description = "Experimental coroutine crate"
+keywords = ["yield", "coroutine", "gen", "async"]
+authors = ["siaeyy"]
+
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+karutin_proc_macro = { version = "0.1.0", path = "../karutin_proc_macro" }

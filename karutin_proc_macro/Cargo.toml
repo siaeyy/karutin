@@ -1,7 +1,10 @@
 [package]
 name = "karutin_proc_macro"
 version = "0.1.0"
-edition = "2024"
+
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
 
 [lib]
 proc-macro = true

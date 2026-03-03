@@ -1,18 +1,10 @@
-[package]
-name = "karutin"
-version = "0.1.0"
-edition = "2024"
-license = "GPL-2.0"
-description = "Experimental coroutine crate"
-keywords = ["yield", "coroutine", "gen", "async"]
-authors = ["siaeyy"]
-repository = "https://github.com/siaeyy/karutin"
-
-
 [workspace]
 members = [
-    "proc_macro",
+    "karutin",
+    "karutin_proc_macro",
 ]
 
-[dependencies]
-karutin_proc_macro = { version = "0.1.0", path = "proc_macro" }
+[workspace.package]
+edition = "2024"
+license = "GPL-2.0"
+repository = "https://github.com/siaeyy/karutin"
