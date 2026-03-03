@@ -6,6 +6,7 @@ license = "GPL-2.0"
 description = "Experimental coroutine crate"
 keywords = ["yield", "coroutine", "gen", "async"]
 authors = ["siaeyy"]
+repository = "https://github.com/siaeyy/karutin"
 
 
 [workspace]
