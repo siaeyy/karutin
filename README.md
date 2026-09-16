@@ -5,18 +5,18 @@
 ___
 
 <div align="center">
-    <b>Karutin</b> is a experimental coroutine crate that performs its own code lowering, <ins>without relying on async/await</ins>.<br>
-	Main purpose of this crate is providing a funy experience of coroutines in stable Rust.
+    <b>Karutin</b> is an experimental coroutine crate that performs its own code lowering, <ins>without relying on async/await</ins>.<br>
+	Main purpose of this crate is providing a fun experience of coroutines in stable Rust.
 </div>
 
 ___
 
 > [!WARNING]
-> This is a experimental crate, not for productions!
+> This is an experimental crate, not for productions!
 
 > [!NOTE]
-> For learning about how does this work,\
-> what are the **cabalities** and **limitations (mutability, dropping)**,\
+> To learn how this works,\
+> what are the **capalities** and **limitations (mutability, dropping)**,\
 > please visit the <a href="https://docs.rs/karutin/latest/karutin/">documentation</a>!
 
 Here are a few examples showing how to use Karutin below:\
